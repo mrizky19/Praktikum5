@@ -75,7 +75,7 @@ Buat program sederhana untuk menambahkan data kedalam sebuah list dengan rincian
 > • Buat flowchart dan penjelasan programnya<br>
 
 ## `Flowchart`
-
+![img](img//4.png)
 ## `Code`
 ```python
     # import package tabulate
@@ -110,7 +110,7 @@ Buat program sederhana untuk menambahkan data kedalam sebuah list dengan rincian
     # tampilkan dataMahasiswa menggunakan tabulate package agar tampilan berbentuk table
 
     print(tabulate(dataMahasiswa, headers=[
-        "No", "Nama", "Nim", "Kelas", "Mata Kuliah", "Tugas", "UTS", "UAS", "Nilai Akhir"], tablefmt="fancy_grid"))
+        "No", "Nama", "Nim", "Tugas", "UTS", "UAS", "Nilai Akhir"], tablefmt="fancy_grid"))
 ```
 ## `Hasil`
 ![img](img//3.png)

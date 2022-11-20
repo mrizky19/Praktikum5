@@ -30,4 +30,4 @@ while(True):
 # tampilkan dataMahasiswa menggunakan tabulate package agar tampilan berbentuk table
 
 print(tabulate(dataMahasiswa, headers=[
-      "No", "Nama", "Nim", "Kelas", "Mata Kuliah", "Tugas", "UTS", "UAS", "Nilai Akhir"], tablefmt="fancy_grid"))
+      "No", "Nama", "Nim", "Tugas", "UTS", "UAS", "Nilai Akhir"], tablefmt="fancy_grid"))
